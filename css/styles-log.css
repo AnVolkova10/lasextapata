@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content:space-evenly;
     background-color: #ECDDB6;
-    background-image: url(../lasextapata/img/background.jpg);
+    background-image: url(../img/background.jpg);
     background-size: cover;
     padding-top: 20px;
     color: white;
