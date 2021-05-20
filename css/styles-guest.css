@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content:space-evenly;
     background-color: #ECDDB6;
-    background-image: url(/img/background.jpg);
+    background-image: url(../img/background.jpg);
     background-size: cover;
     padding-top: 50px;
     color: white;
@@ -30,7 +30,7 @@ img {
 }
 
 aside {
-    background-image: url(/img/aside.jpg);
+    background-image: url(../img/aside.jpg);
     background-color: #A160DE;
     width: 800px;
     height: auto;

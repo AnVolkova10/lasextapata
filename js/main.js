@@ -3,7 +3,7 @@ window.onload = () => {
     let h2 = document.querySelector('h2');
 
     episodios.addEventListener('click', function () {
-        location.href = "/index.html";
+        location.href = "https://anvolkova10.github.io/lasextapata/index.html";
         h2.innerText = "Episodios"
         podcastsA.classList.remove('hidden');
         podcastsB.classList.remove('hidden');

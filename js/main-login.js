@@ -1,5 +1,5 @@
 window.onload = () => {
     document.querySelector("form").onsubmit = function () {
-        location.href = "/index.html";
+        location.href = "https://anvolkova10.github.io/lasextapata/index.html";
     };
 }
