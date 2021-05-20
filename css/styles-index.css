@@ -1,0 +1,182 @@
+* {
+    margin: 0px;
+    padding: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #ECDDB6;
+    background-image: url(/img/background.jpg);
+    color: white;   
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 20px;
+    border: solid #A160DE;
+}
+img {
+    border-radius: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: solid;
+    background-color: #A160DE;
+    margin: 0px 20px;
+    border-radius: 20px;
+}
+
+main{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    margin-bottom: 60px;
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 20px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+aside p {
+    display: block;
+    background-color: black;
+}
+
+p:last-child {
+    cursor: pointer;
+}
+h2 {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    left: 20px;
+    bottom: 0px;
+    right: 20px;
+    
+    background-color: black;
+    color: white;
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 15px;
+    border: solid #A160DE;
+}
+
+.nav-boton {
+    background-color: #A160DE;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.navegador {
+    display: inline-block;
+}
+
+.nav-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 120px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #A160DE;
+}
+
+.nav-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-content a:hover {
+    background-color: #f1f1f1;
+
+}
+
+.navegador:hover .nav-boton {
+    background-color:black;
+    border-radius: 10px;
+}
+
+.navegador:hover .nav-content {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 20px;
+}
+
+header h1 a {
+    font-family: 'Josefin Slab', serif;
+}
+
+header p {
+    text-align: right;
+}
+
+section p {
+    margin: 0px 7px;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 1280px) {
+
+    section {
+        grid-template-columns: 1fr 1fr;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header p {
+        display: none;
+    }
+    header h1 {
+        font-size: small;
+    }
+    
+    section {
+        grid-template-columns: 1fr;
+        border-radius: 20px;
+    }
+}
+
+

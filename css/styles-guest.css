@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+    padding: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #ECDDB6;
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    padding-top: 50px;
+    color: white;
+    
+}
+
+figure {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+img {
+    width: 50px;
+    border-radius: 400px;
+    padding: 0px;
+    border: solid black 3px;   
+}
+
+aside {
+    background-image: url(/img/aside.jpg);
+    background-color: #A160DE;
+    width: 800px;
+    height: auto;
+    border-radius: 14px;
+    border: solid black 5px;   
+}
+
+
+section, footer {
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.575);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+    position: relative;
+    margin-left: 55px;
+}
+
+h1 {
+    text-align: center;
+    margin: 7px;
+}
+ 
+form p a {
+    text-decoration: underline;
+}
+
+p {
+    padding: 10px;
+    text-align: center; 
+}
+
+section:last-child {   
+    margin: 30px;
+    line-height: 1.5;
+    min-width: 400px;
+    max-width: 400px;
+}
+
+
+input {
+    margin-left: 20px;
+}
+
+label, input {
+    padding: 5px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    caret-color: #A160DE;
+}
+
+#user {
+    position: relative;
+    left: 32px;
+}
+
+#password {
+    position: relative;
+    left: 18px;
+}
+
+
+#repeat-password {
+    position: relative;
+    left: 20px;
+}
+
+#nombre {
+    position: relative;
+    left: 25px;
+}
+   
+#apellido {
+    position: relative;
+    left: 25px;
+}
+
+#email {
+    position: relative;
+    left: 38px;
+}
+   
+#generos {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+
+#fecha {
+    position: relative;
+    left: 30px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+[type='radio']:checked:after {
+    width: 11px;
+    height: 11px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #A160DE;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+a {
+    color: white;
+    letter-spacing: 1.5px;
+    padding: 0px;
+}
+
+[type="submit"] {
+    background-color: #A160DE;
+    margin: 30px;
+    margin-right: 80px;
+    color: white;
+    align-self: center;
+    cursor: pointer;    
+}
+
+[type="submit"]:active {
+    background-color: #970B0A;
+    box-shadow: none;
+}
+
+footer {   
+    min-width: 400px;
+    max-width: 400px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.font {
+    font-family: 'Josefin Slab', serif;
+}
