@@ -18,22 +18,3 @@ if ( !empty ( $_POST ) ) {
     }
 }
 
-$connectionmysql = new mysqli( 'localhost', 'root', '', 'index' );
-
-echo '<pre>';
-if ( $connectionmysql->connect_error ) {
-    die( 'No pudiste conectarte con el servidor.' );
-}
-
-if ( $loginUser !== '' && $loginPassword !== '') {
-
-            $insert = $connectionmysql->query( 'INSERT INTO mensajes(luser, lpassword) VALUES
-            ("' . $loginUser . '", "' . $loginPassword . '")');
-            
-            mail ( 'curzi.angela@gmail.com', 'Nuevo usuario', 'Nuevo password' . $loginUser . $loginPassword);
-
-} else {
-    echo 'ERRRRRRRRRRRRRRRRROR';
-}
-
-?>
